@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+body{
+    /* background-color: darkblue; */
+    background-image: linear-gradient(rgba(9, 23, 0, 0.875), rgba(0, 0, 0, 0.906)), url(../image/MagazinePic-04-2.3.001-bigpicture_04_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+}
+header .logo{
+    font-size:large;
+    color: rgb(225, 250, 225);
+}
+header .logo span{
+    color:gold;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    color: white !important;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+header ul:hover{
+    background-color: yellow;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+}
+.my_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em 0; 
+}
+.dp{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url(../image/Screenshot_20231016-204242_Snapchat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.my_profile .dp-text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 2px;
+    color: lightblue;
+}
+.my_profile .dp-text h1 span{
+    color: yellow;
+}
+.my_profile .dp_icon {
+    margin: 10px;
+    display: flex;
+    gap: 1em;
+}
+.dp_icon i{
+    font-size: 1.5em;
+}
+.my_profile .dp_btn button {
+    background-color: rgb(255, 0, 0);
+    border-radius: 7px;
+    padding: 7px 25px;
+    border: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: wheat;
+    margin-bottom: 2%;
+}
+.happy{
+    color: wheat;
+margin-right: 20%;
+   font-size: large;
+}
+.articles{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.articles h2 {
+    margin-top: 6%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.25);
+    display: inline-block;
+    padding-bottom: 5px;
+    color: wheat;
+}
+.articles h3{
+    margin-bottom: 1.5em;
+    color:whitesmoke;
+}
+.articles h5{
+    color:greenyellow;
+}
+.articles .date-img{
+    width:20px;
+    height: 20px;
+    border-radius: 100px;
+    background-image: url(../image/Screenshot_20231016-203558_WhatsAppBusiness.jpg);
+    background-size: cover;
+}
+.articles .date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}.articles{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.articles h2 {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.25);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 2em;
+}
+.articles .date-img{
+    width:20px;
+    height: 20px;
+    border-radius: 100px;
+    background-image: url(../image/3d-render-image-smirking-cool-yellow-emoticon-emoji.jpg);
+    background-size: cover;
+}
+.articles .date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.articles .date-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.articles .date p{
+    color: grey;
+}
+.articles .my-images{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 2em;
+}
+.my-images div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+.images-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.images-2{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.my-images .img-1{
+    border-radius: 20px;
+    background-image: url(../image/MagazinePic-04-2.3.001-bigpicture_04_2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.my-images .img-2{
+    border-radius: 20px;
+    background-image: url(../image/MagazinePic-01-2.3.001-bigpicture_01_7.jpg);
+    background-size: cover;
+}
+.my-images .img-3{
+    border-radius: 20px;
+    background-image: url(../image/MagazinePic-01-2.3.001-bigpicture_01_12.jpg);
+    background-size: cover;
+}
+.my-images .img-4{
+    border-radius: 20px; 
+    background-image: url(../image/MagazinePic-01-2.3.001-bigpicture_01_11.jpg);
+    background-size: cover;
+}
+
+.line{
+    margin:15px  auto;
+    border: 1px solid rgba(0, 0, 0, 0.203);
+}
+.yam{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    gap: 8%;
+}
+.ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+ i:hover{
+    background-color: crimson;
+}
+.icons i{
+    font-size: 1.5em;
+}
+.yam .icons{
+    margin: 10px;
+   display: flex;
+   gap: 1em;
+   margin-right: 3%;
+}
+.made{
+    justify-content: center;
+    width: 60%;
+}
+.my_gee{
+   text-align: center;
+}
+.my_gee ul :hover{
+    background-color: lime;
+}
